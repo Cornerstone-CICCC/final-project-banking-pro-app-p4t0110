@@ -1,8 +1,8 @@
-const fs = require('fs');
-const path = require('path');
-const readline = require('readline');
-const chalk = require('chalk');
-const Table = require('cli-table3');
+import fs from 'fs';
+import path from 'path';
+import readline from 'readline';
+import chalk from 'chalk';
+import Table from 'cli-table3';
 
 const dataPath = path.resolve(process.cwd(), 'bank-data.json');
 let data = { accounts: [] };
